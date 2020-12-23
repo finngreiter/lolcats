@@ -1,0 +1,27 @@
+{
+  "name": "lolcats",
+  "version": "1.0.0",
+  "description": "rainbows",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finngreiter/lolcats.git"
+  },
+  "keywords": [
+    "terminal",
+    "rainbows",
+    "colorful"
+  ],
+  "author": "Felgee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finngreiter/lolcats/issues"
+  },
+  "homepage": "https://github.com/finngreiter/lolcats#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
