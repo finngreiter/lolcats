@@ -7,15 +7,26 @@ rainbows!
 `npm i lolcats`
 
 ```javascript
-const lol = require('lolcats');
+const lolcats = require('lolcats');
 
-lol('hello', 'this is lolcats!');
+// console.log from package
+lolcats.print('hello', 'this is lolcats!');
 // or
-lol('hello this is lolcats!');
+lolcats.print('hello this is lolcats!');
 // or
-lol('hello', 'this', 'is', 'lolcats!');
+lolcats.print('hello', 'this', 'is', 'lolcats!');
+
+// console.log yourself
+console.log(lolcats.rainbow('hello', 'this is lolcats!'));
+// or
+console.log(lolcats.rainbow('hello this is lolcats!'));
+// or
+console.log(lolcats.rainbow('hello', 'this', 'is', 'lolcats!'));
 ```
 
-these all return the same thing
-
 ![example](media/screenshot.jpg)
+
+## api
+
+- `lolcats.rainbow(...x)` returns a rainbow string
+- `lolcats.print(...x)` console.logs a rainbow string

@@ -1,3 +1,4 @@
 const lol = require('lolcats');
 
-lol('hello this is lolcats!');
+lol.print('hello', 'world');
+console.log(lol.rainbow('hello', 'world'));

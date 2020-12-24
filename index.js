@@ -24,7 +24,11 @@ const rainbow = (...x) => {
     n.push(y.join(''));
   });
 
-  console.log(n.join(' '));
+  return n.join(' ');
 };
 
-module.exports = rainbow;
+const print = (...x) => {
+  console.log(rainbow(...x));
+};
+
+module.exports = { rainbow, print };
